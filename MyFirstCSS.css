@@ -11,6 +11,7 @@ h1 {
   font-family: "Satisfy", cursive;
   color: rgba(108, 24, 24, 0.7);
   text-align: center;
+  width: 200px;
   position: relative;
   background-color: yellow;
 }
