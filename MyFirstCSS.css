@@ -3,7 +3,7 @@ body {
 }
 
 * {
-  font-size: 13px;
+  font-size: 12	px;
 }
 
 h1 {
@@ -11,9 +11,9 @@ h1 {
   font-family: "Satisfy", cursive;
   color: rgba(108, 24, 24, 0.7);
   text-align: center;
-  width: 200px;
+  width: 300px;
   position: fixed;
-  background-color: rgba(24, 24, 24, 0.7);
+  background-color: rgba(200, 24, 0, 0.7);
 }
 
 h2 {
@@ -28,6 +28,7 @@ h3 {
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 15px;
 }
 
 p {
@@ -37,9 +38,11 @@ p {
 h2.AddMeToKnowMore {
   font-family: "arial";
   font-style: italic;
+  text-align: left;
+  text-size: 15px;
 }
 
-#EMail {
+.EMail {
   font-style italic;
-  font-color: red;
+  font-color: pink;
 }
