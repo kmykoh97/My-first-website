@@ -12,8 +12,8 @@ h1 {
   color: rgba(108, 24, 24, 0.7);
   text-align: center;
   width: 200px;
-  position: relative;
-  background-color: yellow;
+  position: fixed;
+  background-color: rgba(24, 24, 24, 0.7);
 }
 
 h2 {
@@ -39,7 +39,7 @@ h2.AddMeToKnowMore {
   font-style: italic;
 }
 
-.EMail {
+#EMail {
   font-style italic;
   font-color: red;
 }
