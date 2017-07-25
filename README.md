@@ -4,13 +4,9 @@
 
 *This is my page made only for me. However, you can fork it and change in any way you want.*
 
-![Thumbnail of slate](thumbnail.png)
-
 ## Usage
 
 Just view and click on hyperlink. XD
-
-
 
 ## Customizing
 
@@ -52,8 +48,8 @@ If you'd like my work:
 
 Bring me to your team so that we can take part in more projects together!!
 
+Thank you
+
 Sincerely,
 KMY
-developer
 
-Copyright
