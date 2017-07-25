@@ -1,10 +1,9 @@
-﻿body
-{
+body {
+
 }
 
 * {
   font-size: 16px;
-  font-family: Lemonada;
 }
 
 h1 {
@@ -12,6 +11,7 @@ h1 {
   font-family: 'Satisfy', cursive;
   color: rgba(108, 24, 24, 0.7);
   text-align: center;
+  position: fixed;
 }
 
 h2 {
@@ -22,13 +22,17 @@ h2 {
 
 h3 {
   background-color: rgba(108, 24, 24, 0.3);
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 p {
-
+  font-style: oblique;
 }
 
 h2.AddMeToKnowMore {
-  background-color: rgba(0, 0, 0, 0);
   font-family: "arial";
+  font-style: italic;
 }
