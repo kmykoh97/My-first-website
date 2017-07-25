@@ -1,2 +1,2 @@
 // JavaScript source code
-getElementByID
+var element = getElementByID()
