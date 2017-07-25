@@ -16,11 +16,7 @@ Reserved
 
 ### Stylesheet
 
-If you'd like to add your own custom styles:
-
-Contact me
-
-Alternatively, you can add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+Anything you don't understand or I am wrong, please contact me. Proper credit will be given.
 
 ### Layouts
 
@@ -28,11 +24,12 @@ If you'd like to change the theme's HTML layout:
 
 1. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content writen by yourselves
-4.  OR customize the layout as you'd like
+4. OR customize the layout as you'd like using html code
 
-## Roadmap
+## Contributor
 
-See the [open issues](https://github.com/pages-themes/slate/issues) for a list of proposed features (and known issues).
+kmykoh97(owner)
+...
 
 ## Project philosophy
 
@@ -51,4 +48,5 @@ Bring me to your team so that we can take part in more projects together!!
 Thank you
 
 Sincerely,
-KMY
+
+kmykoh97

@@ -1,5 +1,5 @@
 body {
-
+  
 }
 
 * {
@@ -7,17 +7,18 @@ body {
 }
 
 h1 {
-  font-size: 120px;
-  font-family: 'Satisfy', cursive;
+  font-size: 60px;
+  font-family: "Satisfy", cursive;
   color: rgba(108, 24, 24, 0.7);
   text-align: center;
   position: fixed;
+  background-color: yellow;
 }
 
 h2 {
-  font-family: Bellefair;
+  font-family: "Bellefair";
   font-size: 25px;
-  background-color: yellow;
+  text-align: center;
 }
 
 h3 {
@@ -35,4 +36,9 @@ p {
 h2.AddMeToKnowMore {
   font-family: "arial";
   font-style: italic;
+}
+
+h3.EMail {
+  font-style italic;
+  font-color: red;
 }
