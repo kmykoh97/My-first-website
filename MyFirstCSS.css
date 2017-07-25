@@ -11,7 +11,7 @@ h1 {
   font-family: "Satisfy", cursive;
   color: rgba(108, 24, 24, 0.7);
   text-align: center;
-  position: fixed;
+  position: relative;
   background-color: yellow;
 }
 
@@ -38,7 +38,7 @@ h2.AddMeToKnowMore {
   font-style: italic;
 }
 
-ul.EMail {
+.EMail {
   font-style italic;
   font-color: red;
 }
