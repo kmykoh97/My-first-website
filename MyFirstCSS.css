@@ -13,7 +13,7 @@ h1 {
   text-align: center;
   width: 300px;
   position: fixed;
-  background-color: rgba(200, 24, 0, 0.9);
+  background-color: rgba(200, 24, 0, 0.1);
   margin: auto;
 }
 
