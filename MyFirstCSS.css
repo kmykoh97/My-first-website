@@ -55,5 +55,5 @@ p {
 #map {
   height: 200px;
   width: 50%;
-  position: center;
+  position: center;(no effect)
 }
