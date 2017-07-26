@@ -36,15 +36,18 @@ p {
   font-style: oblique;
 }
 
-h2.AddMeToKnowMore {
+#AddMe {
   font-family: "arial";
   font-style: italic;
-  text-align: left;
-  text-size: 9px;
-  display: inline-block;
+  text-align: center;
+  text-size: 3px;
 }
 
 .EMail ul {
   font-style: italic;
-  font-color: red;
+  font-color: #ffffff;
+}
+
+.MyButton {
+  display: inline-block;
 }
