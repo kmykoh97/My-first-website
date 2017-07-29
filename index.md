@@ -13,15 +13,15 @@
 
 	<!--Introduction lines. Make it as attractive as possible!-->
 	<h1>Hi Zhin Sheng</h1>
-	<h2>This is my first website. This is my world!!</h2>
+	<h2>Hater's world</h2>
 
 	<div class="MyIntroduction">
-		<h3>My Introduction</h3>
-			<p>Hello Everyone, my name is Koh Meng Yit</p>
+		<h3>Intro boys</h3>
+			<p>Putang Ina Mo</p>
 		<h3>My Addresses</h3>
 			<ul>
-				<li>New: <a href="https://goo.gl/maps/RMJyrCSHito" target="_blank">Persiaran Taming Kiri 2, Taman Taming Jaya, 43300, Balakong, Selangor</a></li>
-				<li>Old: <a href="" target="_blank">17, Jalan Gajus OFF, Jalan Loke Yew, 50460 Kuala Lumpur</a></li>
+				<li>New: <a href="https://goo.gl/maps/RMJyrCSHito" target="_blank">Tanjung Rambutan</a></li>
+				<li>Old: <a href="" target="_blank">Brothel</a></li>
 			</ul>
 			<div id="map"></div>
 			<script async defer
@@ -34,15 +34,13 @@
 		<h3>My e-mail</h3>
 			<div class="EMail">
 				<ul>
-					<li>kmykoh97@gmail.com</li>
-					<li>kmykoh97@ymail.com</li>
-					<li>kmykoh97@outlook.com</li>
+					<li>stfu</li>
 				</ul>
 			</div>
 	</div>
 
 	<!--Final section. Put account for adding and contact-->	
-	<h2 id="AddMe">Add me</h2>
+	<h2 id="AddMe">Stalk me</h2>
 	<!--I need to do styling for these buttons/ Use inline-block styling method-->
 	<div class="MyButton">
 		<a href="https://www.facebook.com/kohmengyit.mengyitkoh" target="_blank"><button>Facebook</button></a>
