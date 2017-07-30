@@ -15,6 +15,7 @@ h1 {
   position: fixed;
   background-color: rgba(200, 24, 0, 0.1);
   margin: auto;
+  border-radius: 10px;
 }
 
 h2 {
