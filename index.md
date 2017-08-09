@@ -1,11 +1,9 @@
 <!--This is a second html file for testing. Please ignore-->
 
 <!DOCTYPE html>
-
-<!--code starts here. The above lines are just to make this file readable and can be ignored-->
 <html>
 <head>
-	<title>My World</title>
+	<title>KMY</title>
 	<link rel="stylesheet" type="text/css" href="MyFirstCSS.css">
 	<link href="https://fonts.googleapis.com/css?family=Bellefair|Lemonada|Satisfy|Shadows+Into+Light" rel="stylesheet">
 	<script type="text/javascript" src="MyFirstWebsite.js"></script>
