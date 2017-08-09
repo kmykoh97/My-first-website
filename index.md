@@ -1,8 +1,10 @@
 <!--This is a second html file for testing. Please ignore-->
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+
+<!--code starts here. The above lines are just to make this file readable and can be ignored-->
+<html>
 <head>
-	<meta charset="utf-8" />
 	<title>My World</title>
 	<link rel="stylesheet" type="text/css" href="MyFirstCSS.css">
 	<link href="https://fonts.googleapis.com/css?family=Bellefair|Lemonada|Satisfy|Shadows+Into+Light" rel="stylesheet">
