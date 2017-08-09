@@ -1,6 +1,5 @@
 <!--This is a second html file for testing. Please ignore-->
 
-<!DOCTYPE html>
 <html>
 <head>
 	<title>KMY</title>
