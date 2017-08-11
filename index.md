@@ -1,7 +1,9 @@
 <!--This is a second html file for testing. Please ignore-->
-
+<!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>KMY</title>
 	<link rel="stylesheet" type="text/css" href="MyFirstCSS.css">
 	<link href="https://fonts.googleapis.com/css?family=Bellefair|Lemonada|Satisfy|Shadows+Into+Light" rel="stylesheet">
