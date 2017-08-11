@@ -49,6 +49,11 @@ p {
   font-color: #ffffff;
 }
 
+.MyUniversity {
+  font-style: italic;
+  font-color: #ffffff;
+}
+
 .MyButton {
   display: inline-block;
 }
