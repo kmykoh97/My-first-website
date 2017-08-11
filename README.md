@@ -1,6 +1,6 @@
 # My First Website
 
-[![Build Status](https://travis-ci.org/pages-themes/slate.svg?branch=master)](https://travis-ci.org/pages-themes/slate) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-slate.svg)](https://badge.fury.io/rb/jekyll-theme-slate)
+[![Build Status](https://kmykoh97.github.io/MyKoh/)
 
 *This is my page made only for me. However, you can fork it and change in any way you want.*
 
