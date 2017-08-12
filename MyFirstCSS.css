@@ -63,3 +63,8 @@ p {
   width: 50%;
   position: center;(no effect)
 }
+
+.ProfilePicture img {
+  width: 350px;
+  height: 200px;
+}
