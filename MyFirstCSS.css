@@ -1,6 +1,5 @@
 body {
   overflow: scroll;
-  background-image: url("img/ProfilePicture.jpeg");
 }
 
 * {
@@ -63,11 +62,4 @@ p {
   height: 200px;
   width: 50%;
   position: center;(no effect)
-}
-
-.ProfilePicture img {
-  width: 350px;
-  height: 200px;
-  display: block;
-  margin: 0px auto;
 }
