@@ -2,91 +2,88 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8" />
-	<title>MyWorld</title>
-	<link rel="stylesheet" type="text/css" href="MyFirstCSS.css">
-	<link href="https://fonts.googleapis.com/css?family=Bellefair|Lemonada|Satisfy|Shadows+Into+Light" rel="stylesheet">
-	<script type="text/javascript" src="MyFirstWebsite.js"></script>
+  <meta charset="utf-8" />
+  <title>MyWorld</title>
+  <link rel="stylesheet" type="text/css" href="MyFirstCSS.css">
+  <link href="https://fonts.googleapis.com/css?family=Bellefair|Lemonada|Satisfy|Shadows+Into+Light" rel="stylesheet">
+  <script type="text/javascript" src="MyFirstWebsite.js"></script>
 </head>
 
 <body>
+  
+  <!--Introduction lines. Make it as attractive as possible!-->
+  <h1>Hellow World</h1>
+  <h2>This is my first website. This is my world!!</h2>
 
-	<!--Introduction lines. Make it as attractive as possible!-->
-	<h1>Hellow World</h1>
-	<h2>This is my first website. This is my world!!</h2>
+  <div class="MyIntroduction">
+    <h3>My Introduction</h3>
+    <p>Hello Everyone, my name is Koh Meng Yit</p>
+    <h3>My Addresses</h3>
+    <ul>
+      <li>New: <a href="https://goo.gl/maps/RMJyrCSHito" target="_blank">Persiaran Taming Kiri 2, Taman Taming Jaya, 43300, Balakong, Selangor</a></li>
+      <li>Old: <a href="" target="_blank">17, Jalan Gajus OFF, Jalan Loke Yew, 50460 Kuala Lumpur</a></li>
+    </ul>
+    <div id="map"></div>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Da8epHrGmLR49ipsPbk3ugwVuxDMmH8&callback=initMap">
+    </script>
+    <h3>My Hobby</h3>
+    <p>I have a lot of hobbies.</p>
+    <h3>My Education and Achievement</h3>
+    <p></p>
+    <h3>My e-mail</h3>
+    <div class="EMail">
+      <ul>
+        <li>kmykoh97@gmail.com</li>
+        <li>kmykoh97@ymail.com</li>
+        <li>kmykoh97@outlook.com</li>
+      </ul>
+    </div>
+  </div>
 
-	<div class="MyIntroduction">
-		<h3>My Introduction</h3>
-			<p>Hello Everyone, my name is Koh Meng Yit</p>
-		<h3>My Addresses</h3>
-			<ul>
-				<li>New: <a href="https://goo.gl/maps/RMJyrCSHito" target="_blank">Persiaran Taming Kiri 2, Taman Taming Jaya, 43300, Balakong, Selangor</a></li>
-				<li>Old: <a href="" target="_blank">17, Jalan Gajus OFF, Jalan Loke Yew, 50460 Kuala Lumpur</a></li>
-			</ul>
-			<div id="map"></div>
-			<script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Da8epHrGmLR49ipsPbk3ugwVuxDMmH8&callback=initMap">
-			</script>
-		<h3>My Hobby</h3>
-			<p>I have a lot of hobbies.</p>
-		<h3>My Education and Achievement</h3>
-			<p></p>
-		<h3>My e-mail</h3>
-			<div class="EMail">
-				<ul>
-					<li>kmykoh97@gmail.com</li>
-					<li>kmykoh97@ymail.com</li>
-					<li>kmykoh97@outlook.com</li>
-				</ul>
-			</div>
-	</div>
-
-	<!--Final section. Put account for adding and contact-->	
-	<h2 id="AddMe">Add me:</h2>
-	<!--I need to do styling for these buttons/ Use inline-block styling method-->
-	<div class="MyButton">
-		<a href="https://www.facebook.com/kohmengyit.mengyitkoh" target="_blank"><button>Facebook</button></a>
-		<a href="https://twitter.com/kohmengyit" target="_blank"><button>Twitter</button></a>
-		<a href="https://www.instagram.com/kmykoh/?hl=en" target="_blank"><button>Instagram</button></a>
-		<a href="https://github.com/kmykoh97" target="_blank"><button>Github</button></a>
-		<a href="https://forum.xda-developers.com/member.php?u=8174811&tab=aboutme&simple=1" target="_blank"><button>XDA</button></a>
-	</div>
+  <!--Final section. Put account for adding and contact-->	
+  <h2 id="AddMe">Add me:</h2>
+  <!--I need to do styling for these buttons/ Use inline-block styling method-->
+  <div class="MyButton">
+    <a href="https://www.facebook.com/kohmengyit.mengyitkoh" target="_blank"><button>Facebook</button></a>
+    <a href="https://twitter.com/kohmengyit" target="_blank"><button>Twitter</button></a>
+    <a href="https://www.instagram.com/kmykoh/?hl=en" target="_blank"><button>Instagram</button></a>
+    <a href="https://github.com/kmykoh97" target="_blank"><button>Github</button></a>
+    <a href="https://forum.xda-developers.com/member.php?u=8174811&tab=aboutme&simple=1" target="_blank"><button>XDA</button></a>
+  </div>
 	
-<!--Below, testing lines-->
+  <!--Below, testing lines-->
+  <!--Link to another html page-->
+  <br>
+  <br>
+  <center>
+    <a href="MyAdditionalInformation.html"><button>My Additional Information</button></a>
+  </center>
+  <br>
 	
-	<!--This line of code is usable but will be in same line as button above<a href="MyAdditionalInformation.html"><button>My Additional Information</button></a>-->
+  <div class="MyUniversity">
+    <center>
+      <a href="MyUniversity.html"><button>SJTU</button></a>
+    </center>
+  </div>
+  <br>
+  <br>
 	
-	<!--Link to go to another html page-->
-	<br>
-	<br>
-	<center>
-	<a href="MyAdditionalInformation.html"><button>My Additional Information</button></a>
-	</center>
-	<br>
+  <!--<center>
+    <form action="MyAdditionalInformation.html">
+      <input type="submit" value="My Additional Information">
+    </form>
+  </center>-->
 	
-	<div class="MyUniversity">
-	<center>
-	<a href="MyUniversity.html"><button>SJTU</button></a>
-	</center>
-	</div>
-	<br>
-	<br>
-	
-	<!--<center>
-	<form action="MyAdditionalInformation.html">
-		<input type="submit" value="My Additional Information">
-	</form>
-	</center>-->
-	
-	<!--Shortcut to top bottom & an useles link-->
-	<br>
-	<a href="http://www.myhtmltutorials.com/jump.html">Jumping Inside Pages - HTML Tutorials</a>
-	<br>
-	<center>
-		<a href="#Top">Top</a>
-		&nbsp;|&nbsp;
-		<a href="#Bot">Bottom</a>
-	</center>
+  <!--Shortcut to top bottom & an useles link-->
+  <br>
+  <!--<a href="http://www.myhtmltutorials.com/jump.html">Jumping Inside Pages - HTML Tutorials</a>-->
+  <br>
+  <center>
+    <a href="#Top">Top</a>
+    &nbsp;|&nbsp;
+    <a href="#Bot">Bottom</a>
+  </center>
 
 </body>
 </html>
