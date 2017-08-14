@@ -6,7 +6,7 @@
 ![Other Works](https://github.com/kmykoh97)  
 
 *All my codes are open source but please leave proper recognition*  
-*Beginner, you can learn more about [programming](https://www.codecademy.com) and [markdown language](https://guides.github.com/features/mastering-markdown/)*  
+*Beginner, you can learn more about [programming](https://www.codecademy.com), [markdown language1](https://guides.github.com/features/mastering-markdown/) & [markdown language2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)*  
 
 ## Task List
 - [x] Write basic html, css, Javascript roughwork
@@ -19,6 +19,39 @@
 - [ ] Add breathtaking designs
 - [ ] Add fun
 - [ ] Perfection!!
+
+## Basic HTML/CSS/JS syntaxes:  
+**HTML**  
+* Add Images: `<img src="" atl"" class="">`
+* Add Videos: 
+```html
+<video width="320" height="240" controls> OR <video width="320" height="240" autoplay>
+<source src="" type="video/mp4">
+Your browser does not support my video. Please use another browser!!
+</video>
+```
+* Add bot/top pointers:
+```html
+<a href="#Top">Top</a>
+&nbsp;|&nbsp;
+<a href="#Bot">Bottom</a>
+```
+**CSS**
+* Add background image:
+```CSS
+body {
+  background: url(".jpeg") no-repeat fixed center center;
+}
+```
+* Format Images added in html:
+```CSS
+img.class {
+  width: 350px;
+  height: 450px;
+  display: block;
+  margin: 0px auto;
+}
+```
 
 ### Usage
 Click anything you want freely.  
