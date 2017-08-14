@@ -76,7 +76,7 @@ If you'd like to change the HTML layout, there are few ways:
 ### Project Philosophy
 Everyone can create their own website. My code can be a guide for beginner.  
 > There are three responses to a piece of design – yes, no, and WOW!
->  - Milton Glaser
+>  ~ Milton Glaser
 
 ### Contributing
 Interested in telling me my mistake in code? Feel free to make commmit. I appreciate your time.  
