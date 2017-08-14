@@ -2,8 +2,8 @@
 
 ![Image of MyKoh Page](img/SiteExample.png)  
 
-![Code](https://kmykoh97.github.io/MyKoh/)  
-![Other Works](https://github.com/kmykoh97)  
+[Code](https://kmykoh97.github.io/MyKoh/)  
+[Other Works](https://github.com/kmykoh97)  
 
 *All my codes are open source but please leave proper recognition*  
 *Beginner, you can learn more about [programming](https://www.codecademy.com), [markdown language1](https://guides.github.com/features/mastering-markdown/) & [markdown language2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)*  
@@ -21,7 +21,7 @@
 - [ ] Perfection!!
 
 ## Basic HTML/CSS/JS syntaxes:  
-**HTML**  
+[**HTML**](https://tutorialehtml.com/en/html-tutorial-strikethrough/)  
 * Add Images: `<img src="" atl"" class="">`
 * Add Videos: 
 ```html
@@ -36,7 +36,7 @@ Your browser does not support my video. Please use another browser!!
 &nbsp;|&nbsp;
 <a href="#Bot">Bottom</a>
 ```
-**CSS**
+[**CSS**](https://www.w3schools.com/cssref/pr_background-repeat.asp)
 * Add background image:
 ```CSS
 body {
