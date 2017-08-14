@@ -61,5 +61,5 @@ p {
 #map {
   height: 200px;
   width: 50%;
-  position: center;(no effect)
+  position: center; /*(no effect)*/
 }
