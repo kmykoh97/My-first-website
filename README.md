@@ -20,7 +20,7 @@
 - [ ] Add fun
 - [ ] Perfection!!
 
-## Basic HTML/CSS/JS syntaxes:  
+## Basic HTML/CSS/JS syntaxes & examples:  
 [**HTML**](https://tutorialehtml.com/en/html-tutorial-strikethrough/)  
 * Add Images: `<img src="" atl"" class="">`
 * Add Videos: 
@@ -36,6 +36,17 @@ Your browser does not support my video. Please use another browser!!
 &nbsp;|&nbsp;
 <a href="#Bot">Bottom</a>
 ```
+* Adding a table:
+```html
+<table>
+  <tr>
+    <th scope="col">Saturday</th>
+    <th scope="row">Sunday</th>
+  </tr>
+    <td>73</td>
+    <td>81</td>
+</table>
+```
 [**CSS**](https://www.w3schools.com/cssref/pr_background-repeat.asp)
 * Add background image:
 ```CSS
@@ -50,6 +61,12 @@ img.class {
   height: 450px;
   display: block;
   margin: 0px auto;
+}
+```
+* Add double colour gradient inside border(Experimental as it may not work in all browser)
+```CSS
+.class {
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
 }
 ```
 
