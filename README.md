@@ -1,8 +1,8 @@
-# Hello World, this is my website  
+# Hello World, this is my [website](https://kmykoh97.github.io/MyKoh/)  
 
 ![Image of MyKoh Page](img/SiteExample.png)  
 
-[Code](https://kmykoh97.github.io/MyKoh/)  
+[Code](https://github.com/kmykoh97/MyKoh)  
 [Other Works](https://github.com/kmykoh97)  
 
 *All my codes are open source but please leave proper recognition*  
