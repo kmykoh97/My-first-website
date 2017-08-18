@@ -1,5 +1,7 @@
 // JavaScript source code
 
+alert("Hi, everyone, this website is not yet complete. Please be patient")
+
 function initMap() {
   var uluru = {lat: 3.0243783, lng: 101.74252999999999};
   var map = new google.maps.Map(document.getElementById('map'), {
