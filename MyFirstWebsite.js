@@ -1,5 +1,7 @@
 // JavaScript source code
 
+
+
 alert("Hi, everyone, this website is not yet complete. Please be patient")
 
 function initMap() {
@@ -13,3 +15,4 @@ function initMap() {
     map: map
   });
 }
+

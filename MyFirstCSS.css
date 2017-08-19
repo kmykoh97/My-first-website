@@ -1,5 +1,7 @@
 body {
   overflow: scroll;
+  background-color: #F5F5DC;
+  background: linear-gradient(-90deg, #FFDAB9, #FFFACD);
 }
 
 * {
@@ -13,7 +15,7 @@ h1 {
   text-align: center;
   width: 300px;
   position: fixed;
-  background-color: rgba(200, 24, 0, 0.1);
+  background-color: rgba(80, 50, 78, 0.1);
   margin: auto;
   border-radius: 10px;
 }
@@ -37,24 +39,19 @@ p {
   font-style: oblique;
 }
 
-#AddMe {
+#addMe {
   font-family: "Arial", sans-serif;
   font-style: italic;
   text-align: center;
   text-size: 3px;
 }
 
-.EMail ul {
+.eMail ul {
   font-style: italic;
   font-color: #ffffff;
 }
 
-.MyUniversity {
-  font-style: italic;
-  font-color: #ffffff;
-}
-
-.MyButton {
+.myButton {
   display: inline-block;
 }
 
@@ -62,4 +59,58 @@ p {
   height: 200px;
   width: 50%;
   position: center; /*(no effect)*/
+}
+
+.button {
+  background-color: white; 
+  border-radius: 5px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #e7e7e7;
+  -webkit-transition-duration: 0.4s; /*For Safari*/
+  transition-duration: 0.4s; /*For Safari*/
+}
+
+.button:hover {
+  background-color: ##e7e7e7;
+  color: red;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.myButton {
+  float: left;
+  border: 1px solid grey;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button2:hover {background-color: #3e8e41}
+
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

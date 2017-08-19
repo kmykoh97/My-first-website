@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <title>MyWorld</title>
-  <link rel="stylesheet" type="text/css" href="MyFirstCSS.css">
+  <link rel="stylesheet" type="text/css" href="myFirstCSS.css">
   <link href="https://fonts.googleapis.com/css?family=Bellefair|Lemonada|Satisfy|Shadows+Into+Light" rel="stylesheet">
-  <script type="text/javascript" src="MyFirstWebsite.js"></script>
+  <script type="text/javascript" src="myFirstWebsite.js"></script>
   <style>
     /*body {
       background: url("img/ProfilePicture.jpeg") no-repeat center center;
@@ -21,7 +21,7 @@
   <h1>Hellow World</h1>
   <h2>This is my first website. This is my world!!</h2>
 
-  <div class="MyIntroduction">
+  <div class="myIntroduction">
     <h3>My Introduction</h3>
     <p>Hello Everyone, my name is Koh Meng Yit</p>
     <h3>My Addresses</h3>
@@ -38,7 +38,7 @@
     <h3>My Education and Achievement</h3>
     <p></p>
     <h3>My e-mail</h3>
-    <div class="EMail">
+    <div class="eMail">
       <ul>
         <li>kmykoh97@gmail.com</li>
         <li>kmykoh97@ymail.com</li>
@@ -48,60 +48,36 @@
   </div>
 
   <!--Final section. Put account for adding and contact-->	
-  <h2 id="AddMe">Add me:</h2>
+  <h2 id="addMe">Add me:</h2>
   <!--I need to do styling for these buttons/ Use inline-block styling method-->
-  <div class="MyButton">
-    <a href="https://www.facebook.com/kohmengyit.mengyitkoh" target="_blank"><button>Facebook</button></a>
-    <a href="https://twitter.com/kohmengyit" target="_blank"><button>Twitter</button></a>
-    <a href="https://www.instagram.com/kmykoh/?hl=en" target="_blank"><button>Instagram</button></a>
-    <a href="https://github.com/kmykoh97" target="_blank"><button>Github</button></a>
-    <a href="https://forum.xda-developers.com/member.php?u=8174811&tab=aboutme&simple=1" target="_blank"><button>XDA</button></a>
+  <div class="myButton">
+    <a href="https://www.facebook.com/kohmengyit.mengyitkoh" target="_blank"><button class="button">Facebook</button></a>
+    <a href="https://twitter.com/kohmengyit" target="_blank"><button class="button">Twitter</button></a>
+    <a href="https://www.instagram.com/kmykoh/?hl=en" target="_blank"><button class="button">Instagram</button></a>
+    <a href="https://github.com/kmykoh97" target="_blank"><button class="button">Github</button></a>
+    <a href="https://forum.xda-developers.com/member.php?u=8174811&tab=aboutme&simple=1" target="_blank"><button class="button">XDA</button></a>
   </div>
 	
   <!--Below, testing lines-->
   <!--Link to another html page with or without js.alert-->
   <br>
   <br>
-  <!--first way-->
-  <button>
-    <script type="text/javascript">
-      function AlertIt() {
-      var answer = confirm ("Please do not use any information here in any form of crime")
-      if (answer)
-      window.location="MyAdditionalInformation.html";
-      }
-    </script>
-    <a href="javascript:AlertIt();">click me</a>
-  </button>
   <br>
-  <!--second way-->
-  <button>
-    <script type="text/javascript">
-      function confirm_alert(node) {
-      return confirm("Please do not use any information here in any form of crime");
-      }
-    </script>
-    <a href="MyAdditionalInformation.html" onclick="return confirm_alert(this);">Click Me</a>
-  </button>
-  <br>
-  <!--third way-->
-  <a href="MyAdditionalInformation.html" onclick="return confirm('Please click on OK to continue.');"><button>click me</button></a>
-
   <center>
-    <a href="MyAdditionalInformation.html"><button>My Additional Information</button></a>
+    <a href="myProfile.html" onclick="return confirm('Please do not use any information here in any form of crime');"><button class="button2">KMY Profile</button></a>
   </center>
   <br>
 	
-  <div class="MyUniversity">
+  <div class="myUniversity">
     <center>
-      <a href="MyUniversity.html"><button>SJTU</button></a>
+      <a href="myUniversity.html"><button class="button2">SJTU</button></a>
     </center>
   </div>
   <br>
   <br>
 	
   <!--<center>
-    <form action="MyAdditionalInformation.html">
+    <form action="myAdditionalInformation.html">
       <input type="submit" value="My Additional Information">
     </form>
   </center>-->
