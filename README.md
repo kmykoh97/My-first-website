@@ -39,12 +39,27 @@ Your browser does not support my video. Please use another browser!!
 * Adding a table:
 ```html
 <table>
+  <thead>
   <tr>
-    <th scope="col">Saturday</th>
-    <th scope="row">Sunday</th>
+    <th>
+      Company Name
+    </th>
+    <th>
+      Number of Items to Ship
+    </th>
   </tr>
-    <td>73</td>
-    <td>81</td>
+  </thead>
+  <tr>
+    <td colspan="2">Adam's Greenworks</td>
+    <td rowspan="2">14</td>
+  </tr>
+  <tr>
+    <td>hi<td/>
+  </tr>
+  <tfoot>
+    <td>Total</td>
+    <td>28</td>
+  </tfoot>
 </table>
 ```
 [**CSS**](https://www.w3schools.com/cssref/pr_background-repeat.asp)
@@ -68,6 +83,31 @@ img.class {
 .class {
   background-image: -webkit-linear-gradient(#FFD194, #BC1324);
 }
+```
+* Styling Tables:
+```CSS
+table, th, td {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+```
+[**Javascript with Jquery*](Not listed yet. I am still finding a good tutorial)
+* Add Show/Hide List function using 'Jquery' Library in Javascript:
+```Javascript
+var main = function() {
+  $('.wholeList').hide();
+  $('.wholeList').fadeIn(1000);
+
+  $('.list').hide();
+  $('.headList').on('click', function() {
+    /*$(this).next().toggle();*/
+	$(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+    $(this).text('Press to view again');
+  });
+}
+$(document).ready(main);
 ```
 
 ### Usage
