@@ -6,12 +6,101 @@
   <title>MyWorld</title>
   <link rel="stylesheet" type="text/css" href="myFirstCSS.css">
   <link href="https://fonts.googleapis.com/css?family=Bellefair|Lemonada|Satisfy|Shadows+Into+Light" rel="stylesheet">
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
   <script type="text/javascript" src="myFirstWebsite.js"></script>
   <style>
+
     /*body {
       background: url("img/ProfilePicture.jpeg") no-repeat center center;
 	  background-size: cover;
     }*/
+
+body {
+  overflow: scroll;
+  background-color: #F5F5DC;
+  background: linear-gradient(-90deg, #FFDAB9, #FFFACD);
+}
+
+* {
+  font-size: 12	px;
+}
+
+#addMe {
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+  text-align: center;
+  text-size: 3px;
+}
+
+.eMail ul {
+  font-style: italic;
+  font-color: #ffffff;
+}
+
+.myButton {
+  display: inline-block;
+}
+
+#map {
+  height: 200px;
+  width: 50%;
+  position: center; /*(no effect)*/
+}
+
+.button {
+  background-color: white; 
+  border-radius: 5px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #e7e7e7;
+  -webkit-transition-duration: 0.4s; /*For Safari*/
+  transition-duration: 0.4s; /*For Safari*/
+}
+
+.button:hover {
+  background-color: ##e7e7e7;
+  color: red;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.myButton {
+  float: left;
+  border: 1px solid grey;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button2:hover {background-color: #3e8e41}
+
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
   </style>
 </head>
 
@@ -30,9 +119,6 @@
       <li>Old: <a href="" target="_blank">17, Jalan Gajus OFF, Jalan Loke Yew, 50460 Kuala Lumpur</a></li>
     </ul>
     <div id="map"></div>
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Da8epHrGmLR49ipsPbk3ugwVuxDMmH8&callback=initMap">
-    </script>
     <h3>My Hobby</h3>
     <p>I have a lot of hobbies.</p>
     <h3>My Education and Achievement</h3>
@@ -91,6 +177,12 @@
     &nbsp;|&nbsp;
     <a href="#Bot">Bottom</a>
   </center>
+
+<script>alert("Hi, everyone, this website is not yet complete. Please be patient")</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Da8epHrGmLR49ipsPbk3ugwVuxDMmH8&callback=initMap">
+</script>
 
 </body>
 </html>

@@ -4,11 +4,14 @@
 <html>
 <head>
   <title>Profile</title>
-  <link href="https://fonts.googleapis.com/css?family=Lemonada|Monoton" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="myFirstCSS.css">
+  <link href="https://fonts.googleapis.com/css?family=Bellefair|Lemonada|Satisfy|Shadows+Into+Light" rel="stylesheet">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="myFirstWebsite.js"></script>
   <style>
     body {
-      font-family: 'Lemonada', cursive;
-      font-size: 14px;
+      text-shadow: 4px 4px 4px #aaa;
+      background: url("img/SJTU/SJTU logo.png") no-repeat fixed center center;
       text-shadow: 4px 4px 4px #aaa;
 	}
 
@@ -21,21 +24,23 @@
   </style>
 </head>
 <body>
-  <div style="font-family: 'Monoton', cursive;
-  font-size: 20px;">
-    <h3>Let me tell you my secret XDDDD</h3>
+  <div style="font-size: 20px;">
+    <h1>Let me tell you my secret XDDDD</h1>
   </div>
   <img src="img/Myself/ProfilePicture.jpeg" alt="Handsome Koh" class="ProfilePicture" />
-  <h1>My choice of school</h1>
-  <ul>
-    <li><a href="https://en.wikipedia.org/wiki/National_University_of_Singapore" target="_blank">nus</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Nanyang_Technological_University" target="_blank">ntu</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Shanghai_Jiao_Tong_University" target="_blank">shanghaijiaotong</a></li>
-  </ul>
-  <h1>My choice of course</h1>
-  <ol>
-    <li>Computer Science&Software Engineering</li>
-    <li>Mechanical Engineering</li>
-  </ol>
+  
+  <div class="wholeList">
+  <h3 class="headList">My choice of school</h3>
+  <div class="list">
+    <p><a href="https://en.wikipedia.org/wiki/National_University_of_Singapore" target="_blank">nus</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/Nanyang_Technological_University" target="_blank">ntu</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/Shanghai_Jiao_Tong_University" target="_blank">shanghaijiaotong</a></p>
+  </div>
+  <h3 class="headList">My choice of course</h3>
+  <div class="list">
+    <p>Computer Science&Software Engineering</p>
+    <p>Mechanical Engineering</p>
+  </div>
+  </div>
 </body>
 </html>

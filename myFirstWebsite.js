@@ -2,7 +2,7 @@
 
 
 
-alert("Hi, everyone, this website is not yet complete. Please be patient")
+
 
 function initMap() {
   var uluru = {lat: 3.0243783, lng: 101.74252999999999};
@@ -16,3 +16,16 @@ function initMap() {
   });
 }
 
+var main = function() {
+  $('.wholeList').hide();
+  $('.wholeList').fadeIn(1000);
+
+  $('.headList').hide();
+  $('.list').on('click', function() {
+    /*$(this).next().toggle();*/
+	$(this).next().slideToggle(400);
+    /*$(this).toggleClass('active');*/
+    $(this).text('Press to view again');
+  });
+}
+$(document).ready(main);
