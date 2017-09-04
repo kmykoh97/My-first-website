@@ -20,8 +20,8 @@ var main = function() {
   $('.wholeList').hide();
   $('.wholeList').fadeIn(1000);
 
-  $('.headList').hide();
-  $('.list').on('click', function() {
+  $('.list').hide();
+  $('.headList').on('click', function() {
     /*$(this).next().toggle();*/
 	$(this).next().slideToggle(400);
     /*$(this).toggleClass('active');*/
