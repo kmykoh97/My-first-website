@@ -10,72 +10,30 @@
   <script type="text/javascript" src="myFirstWebsite.js"></script>
   <style>
 
-    /*body {
-      background: url("img/ProfilePicture.jpeg") no-repeat center center;
-	  background-size: cover;
-    }*/
-
 body {
+      background: url("img/background 9.jpg") no-repeat center center;
+	  background-size: cover;
+}
+
+/*body {
   overflow: scroll;
   background-color: #F5F5DC;
   background: linear-gradient(-90deg, #FFDAB9, #FFFACD);
-}
+}*/
 
-* {
+/** {
   font-size: 12	px;
-}
-
-#addMe {
-  font-family: "Arial", sans-serif;
-  font-style: italic;
-  text-align: center;
-  text-size: 3px;
-}
+}*/
 
 .eMail ul {
   font-style: italic;
   font-color: #ffffff;
 }
 
-.myButton {
-  display: inline-block;
-}
-
 #map {
   height: 200px;
   width: 50%;
   position: center; /*(no effect)*/
-}
-
-.button {
-  background-color: white; 
-  border-radius: 5px;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border: 2px solid #e7e7e7;
-  -webkit-transition-duration: 0.4s; /*For Safari*/
-  transition-duration: 0.4s; /*For Safari*/
-}
-
-.button:hover {
-  background-color: ##e7e7e7;
-  color: red;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.myButton {
-  float: left;
-  border: 1px solid grey;
-}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 }
 
 .button2 {
@@ -107,21 +65,18 @@ body {
 <body>
   
   <!--Introduction lines. Make it as attractive as possible!-->
-  <h1>Hellow World</h1>
-  <h2>This is my first website. This is my world!!</h2>
+  <h1>Hello World</h1>
+  <h2>Be grateful and don't overlook simple things in life.. kmy</h2>
 
   <div class="myIntroduction">
     <h3>My Introduction</h3>
     <p>Hello Everyone, my name is Koh Meng Yit</p>
-    <h3>My Addresses</h3>
-    <ul>
-      <li>New: <a href="https://goo.gl/maps/RMJyrCSHito" target="_blank">Persiaran Taming Kiri 2, Taman Taming Jaya, 43300, Balakong, Selangor</a></li>
-      <li>Old: <a href="" target="_blank">17, Jalan Gajus OFF, Jalan Loke Yew, 50460 Kuala Lumpur</a></li>
-    </ul>
+    <h3>My HomeTown Address</h3>
     <div id="map"></div>
     <h3>My Hobby</h3>
     <p>I have a lot of hobbies.</p>
-    <h3>My Education and Achievement</h3>
+	<p>I love musics although I know little about them. I often play chess and coding during my spare time.</p>
+    <h3>My Education & Achievement</h3>
     <p></p>
     <h3>My e-mail</h3>
     <div class="eMail">
@@ -134,7 +89,7 @@ body {
   </div>
 
   <!--Final section. Put account for adding and contact-->	
-  <h2 id="addMe">Add me:</h2>
+  <h2 id="addMe" style="font-style: italic;">Add me:</h2>
   <!--I need to do styling for these buttons/ Use inline-block styling method-->
   <div class="myButton">
     <a href="https://www.facebook.com/kohmengyit.mengyitkoh" target="_blank"><button class="button">Facebook</button></a>
@@ -178,7 +133,7 @@ body {
     <a href="#Bot">Bottom</a>
   </center>
 
-<script>alert("Hi, everyone, this website is not yet complete. Please be patient")</script>
+<script>alert("Hi, everyone, this website is not yet completed. Please be patient")</script>
 
 <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Da8epHrGmLR49ipsPbk3ugwVuxDMmH8&callback=initMap">

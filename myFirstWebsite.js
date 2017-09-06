@@ -16,6 +16,7 @@ function initMap() {
   });
 }
 
+/*Jquery in Javascript source code*/
 var main = function() {
   $('.wholeList').hide();
   $('.wholeList').fadeIn(1000);
@@ -24,8 +25,16 @@ var main = function() {
   $('.headList').on('click', function() {
     /*$(this).next().toggle();*/
 	$(this).next().slideToggle(400);
-    /*$(this).toggleClass('active');*/
+    /*$(this).toggleClass('jquerycss');*/
     $(this).text('Press to view again');
   });
+
+  $('.myButton').hide();
+  $('#addMe').on('click', function() {
+  	  $(this).next().slideToggle(400);
+	  $(this).text('Press the links to visit');
+  })
 }
 $(document).ready(main);
+
+VAR 
