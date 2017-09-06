@@ -92,7 +92,7 @@ table, th, td {
   text-align: center;
 }
 ```
-[**Javascript with Jquery*](Not listed yet. I am still finding a good tutorial)
+[**Javascript with Jquery**](https://code.jquery.com/jquery-3.1.0.min.js)
 * Add Show/Hide List function using 'Jquery' Library in Javascript:
 ```Javascript
 var main = function() {
