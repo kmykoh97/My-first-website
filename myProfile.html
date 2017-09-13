@@ -13,6 +13,9 @@
       text-shadow: 4px 4px 4px #aaa;
       background: url("") no-repeat fixed center center;
       text-shadow: 4px 4px 4px #aaa;
+      overflow: scroll;
+	  background-color: #F5F5DC; /*for unsupported instances*/
+      background: linear-gradient(-90deg, #FFDAB9, #FFFACD);
 	}
 
     img.ProfilePicture {
@@ -29,19 +32,29 @@
   </style>
 </head>
 <body>
-    <h1>Let me tell you my secret XDDDD</h1>
+  <h1>About Me!</h1>
   <img src="img/SJTU/SJTU campus.jpg" alt="Handsome Koh" class="ProfilePicture" />
   
-  <h3>My Introduction</h3>
-  <p>Hello Everyone, my name is Koh Meng Yit</p>
-  <h3>My HomeTown Address</h3>
-  <div id="map"></div>
-  <h3>My Hobby</h3>
-  <p>I have a lot of hobbies.</p>
-  <p>I love musics although I know little about them. I often play chess and coding during my spare time.</p>
-  <h3>My Education & Achievement</h3>
-  <p></p>
-  <h3>My e-mail</h3>
+  <div class="wholeList">
+  <h3 class='headList'>My Introduction</h3>
+  <div class="list">
+    <p>Hello Everyone, my name is Koh Meng Yit</p>
+  </div>
+  <h3 class='headList'>My HomeTown Address</h3>
+  <div class="list">
+    <div id="map"></div>
+  </div>
+  <h3 class='headList'>My Hobby</h3>
+  <div class="list">
+    <p>I have a lot of hobbies.</p>
+    <p>I love musics although I know little about them. I often play chess and coding during my spare time.</p>
+  </div>
+  <h3 class='headList'>My Education & Achievement</h3>
+  <div class="list">
+    <p>During my free time I enjoy playing chess. I am MBSSKL Chinese Chess Open 2014 champion. I am also good in academic and has some achievements for example high distinction of Malaysia National Chemistry Quiz 2014. I joined the St John Ambulance Malaysia in my school and has passed several qualifications such as basic first aid and computer skill. Being a librarian in my secondary school, I have learnt to be responsible. I won the first runner up in the general knowledge competition held in Help College few years back and has granted bursary to study the UOL international programme.</p>
+  </div>
+  <h3 class='headList'>My e-mail</h3>
+  <div class="list">
   <div class="eMail">
     <ul>
       <li>kmykoh97@gmail.com</li>
@@ -49,12 +62,12 @@
       <li>kmykoh97@outlook.com</li>
     </ul>
   </div>
-  <div class="wholeList">
-  <h4 class="headList">My favourite schools</h4>
+  </div>
+  <h3 class="headList">My favourite schools</h3>
   <div class="list">
-    <p><a href="https://en.wikipedia.org/wiki/National_University_of_Singapore" target="_blank">MIT</a></p>
-    <p><a href="https://en.wikipedia.org/wiki/Nanyang_Technological_University" target="_blank">Princeton University</a></p>
-    <p><a href="https://en.wikipedia.org/wiki/Shanghai_Jiao_Tong_University" target="_blank">Shanghai Jiao Tong University</a></p>
+    <p><a href="http://www.mit.edu/" target="_blank">MIT</a></p>
+    <p><a href="https://www.princeton.edu/" target="_blank">Princeton University</a></p>
+    <p><a href="http://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a></p>
   </div>
   <h3 class="headList">My choice of courses</h3>
   <div class="list">
@@ -64,7 +77,7 @@
   </div>
 
   <!--Final section. Put account for adding and contact-->	
-  <h2 id="addMe" style="font-style: italic;">Press to see my social profiles</h2>
+  <h5 id="addMe" style="font-style: italic;">Press to see my social profiles</h5>
   <!--I need to do styling for these buttons/ Use inline-block styling method-->
   <div class="myButton">
     <a href="https://www.facebook.com/kohmengyit.mengyitkoh" target="_blank"><button class="button">Facebook</button></a>
